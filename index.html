@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boot</title>
+    <link type="text/css" rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="/style.css">
+    <script defer src="/script.js"></script>
+</head>
+
+<body class="bg-dark">
+
+    <nav class="navbar navbar-expand-md bg-success navbar-success sticky-top">
+
+        <div class="container-fluid">
+
+            <a href="/index.html" class="navbar-brand">🏚</a><button type="button" class="navbar-toggler border-0"
+                data-bs-toggle="collapse" data-bs-target="#aim"><span
+                    class="navbar-toggler-icon text-success">.</span></button>
+
+            <div id="aim" class="collapse navbar-collapse">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item pe-3">
+
+                        <a id="awaitingOption" class="nav-link text-uppercase text-white pb-0">
+                            awaiting
+                            <div class="underline"></div>
+                        </a>
+
+
+                    </li>
+                    <li class="nav-item pe-3">
+
+                        <a id="ongoingOption" class="nav-link text-uppercase text-white pb-0">
+                            ongoing
+                            <div class="underline"></div>
+                        </a>
+
+
+                    </li>
+                    <li class="nav-item pe-3">
+
+                        <a id="doneOption" class="nav-link text-uppercase text-white pb-0">
+                            done
+                            <div class="underline"></div>
+                        </a>
+
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a id="allOption" class="nav-link text-uppercase text-white pb-0">
+                            all
+                            <div class="underline"></div>
+                        </a>
+
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <main class="container-fluid p-0 ps-2 mx-auto ms-lg-5">
+
+        <div class="row mt-5 mx-auto text-break">
+
+            <div class="col-lg-1"></div>
+
+            <ul id="awaiting" class="list-group col-md-4 col-lg-3 pb-2">
+
+                <li id="awaitingHeaderTitle"
+                    class="list-group-item text-bg-warning text-center text-uppercase border-0">awaiting
+                </li>
+
+            </ul>
+
+            <ul id="ongoing" class="list-group col-md-4 col-lg-3 pb-2">
+
+                <li id="ongoingHeaderTitle"
+                    class="list-group-item text-bg-secondary text-center text-uppercase border-0">ongoing
+                </li>
+
+            </ul>
+
+            <ul id="done" class="list-group col-md-4 col-lg-3">
+
+                <li id="doneHeaderTitle" class="list-group-item text-bg-success text-center text-uppercase border-0">
+                    done</li>
+
+
+            </ul>
+
+            <div class="col-lg-1"></div>
+
+        </div>
+
+
+
+    </main>
+
+    <div class="container-fluid pb-5">
+
+        <div id="dropCreate" class="row mx-auto mb-5 fixed-bottom unsee">
+
+            <div id="cancelTaskBtnDiv" class="col-6">
+
+                <button type="button" id="cancelTaskBtn"
+                    class="btn btn-danger text-bg-danger rounded-circle border border-2 border-dark pt-0">x</button>
+
+            </div>
+
+            <div id="createTaskBtnDiv" class="col-6">
+
+                <button type="button" id="createTaskBtn"
+                    class="btn btn-success text-bg-success rounded-circle border border-2 border-dark pt-0 d-flex justify-content-center align-items-center float-end">✔</button>
+
+            </div>
+
+            <div id="errorTaskBtnDiv" class="col-6 unsee">
+
+                <div id="errorTaskBtn"
+                    class="text-bg-danger rounded-circle border border-2 border-dark d-flex justify-content-center align-items-center float-end">!</div>
+
+            </div>
+
+        </div>
+
+        <div id="addTaskBtnDiv" class="container m-0 p-0 mx-auto fixed-bottom mb-5">
+
+            <button id="addTaskBtn"
+                class="btn btn-primary text-bg-primary rounded-circle border border-2 border-dark pt-0 d-flex justify-content-center align-items-center mx-auto">+</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

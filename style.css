@@ -1,0 +1,319 @@
+.underline{
+
+    height: 3px;
+    width: 0px;
+    background-color: white;
+    transition-duration: 800ms;
+    transition-property: width;
+    transition-timing-function: ease;
+
+}
+
+.nav-item:hover .underline{
+
+    width: 100%;
+
+}
+
+.nav-item:active .nav-link{
+
+    color: black !important;
+
+}
+
+.nav-item:active .underline{
+
+    background-color: black !important;
+
+}
+
+.nav-link:hover{
+
+    cursor: pointer;
+
+}
+
+.navbar-toggler{
+
+    border: 1px solid #198754 !important;
+
+}
+
+.navbar-toggler:active{
+
+    background-color: #115f3b !important;
+
+}
+
+#addTaskBtnDiv{
+
+    height: 4rem;
+    width: 4rem;
+
+}
+
+#addTaskBtn{
+
+    outline-color: #2C5591 !important;
+    outline-width: 1px !important;
+    outline-style: solid !important;
+    outline-offset: 0px;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+    transition-property: width, height, font-size, outline-offset;
+    transition-timing-function: ease;
+    transition-duration: 250ms;
+
+}
+
+#addTaskBtn:hover{
+
+    outline-offset: 16px;
+    font-size: 2rem;
+    height: 4rem;
+    width: 4rem;
+
+}
+
+#addTaskBtn:active{
+
+    background-color: #2C5591 !important;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+
+}
+
+#createTaskBtnDiv{
+
+    min-height: 4rem;
+    min-width: 4rem;
+
+}
+
+#createTaskBtn{
+
+    outline-color: #1D563F  !important;
+    outline-width: 1px !important;
+    outline-style: solid !important;
+    outline-offset: 0px;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+    transition-property: width, height, font-size, outline-offset;
+    transition-timing-function: ease;
+    transition-duration: 250ms;
+
+}
+
+#createTaskBtn:hover{
+
+    outline-offset: 16px;
+    font-size: 2rem;
+    height: 4rem;
+    width: 4rem;
+
+}
+
+#createTaskBtn:active{
+
+    background-color: #1D563F !important;
+    transition-duration: 0ms;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+
+}
+
+#errorTaskBtn{
+
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+    transition-property: width, height, font-size;
+    transition-timing-function: ease;
+    transition-duration: 250ms;
+
+}
+
+
+.error-occur{
+
+    font-size: 2rem !important;
+    height: 5rem !important;
+    width: 5rem !important;
+
+}
+
+.error-occur-2{
+
+    font-size: 1.5rem !important;
+    height: 3rem !important;
+    width: 3rem !important;
+
+}
+
+#cancelTaskBtnDiv{
+
+    min-height: 4rem;
+    min-width: 4rem;
+
+}
+
+#cancelTaskBtn{
+
+    outline-color: #7F2D37  !important;
+    outline-width: 1px !important;
+    outline-style: solid !important;
+    outline-offset: 0px;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+    transition-property: width, height, font-size, outline-offset;
+    transition-timing-function: ease;
+    transition-duration: 250ms;
+
+}
+
+#cancelTaskBtn:hover{
+
+    outline-offset: 16px;
+    font-size: 2rem;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+
+}
+
+#cancelTaskBtn:active{
+
+    background-color: #7F2D37 !important;
+    transition-duration: 0ms;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+
+}
+
+#dropCreate{
+
+    height: 3rem;
+
+}
+
+ul:hover #awaitingHeaderTitle{
+
+    color: white !important;
+    background-color: #b68b09 !important;
+
+}
+
+.creatingClass{
+
+    padding-bottom: 1rem !important;
+
+}
+
+.stPhase{
+
+    transition-property: height;
+    transition-duration: 800ms;
+    transition-timing-function: ease;
+    height: 0px;
+
+}
+
+.ndPhase_1{
+
+    height: 540px;
+
+}
+
+.ndPhase_2{
+
+    height: 600px;
+
+}
+
+.ndPhase_3{
+
+    height: 560px;
+
+}
+
+.ndPhase_4{
+
+    height: 650px;
+
+}
+
+.card:hover p{
+
+    color: white !important;
+
+}
+
+ul:hover #ongoingHeaderTitle{
+
+    background-color: #6c757d8a !important;
+
+}
+
+ul:hover #doneHeaderTitle{
+
+    background-color: #115f3b !important;
+
+}
+
+.navbar-toggler:hover{
+
+    border: 1px solid black !important;
+
+}
+
+.textarea{
+
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.unsee{
+
+    display: none !important;
+
+}
+
+@media (min-width: 1px){
+
+    .btn-group{
+
+        padding-top: 1rem;
+        padding-bottom: 0.05rem;
+
+    }
+
+    #twoBtn{
+
+        padding-bottom: 0rem;
+
+    }
+
+}
+
+@media (min-width: 768px){
+
+    #twoBtn{
+
+        margin-top: 2.3rem;
+
+    }
+
+    #twoBtn{
+
+        padding-bottom: 1px;
+
+    }
+    
+}
